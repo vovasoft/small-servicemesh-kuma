@@ -1,0 +1,10 @@
+server:
+  port: 8080  # Java 服务运行的端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info  # 暴露健康检查端点
+logging:
+  level:
+    root: INFO
